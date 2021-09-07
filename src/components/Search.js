@@ -14,12 +14,12 @@ const Search = () =>  {
     console.log(beersData)
 
     const handleOnClick = () => {
-        window.location.reload(false)
+        window.location.reload()
 
     }
     return (
         <div className="search">
-            <button className="button" type="button" onClick={handleOnClick} >Go Get That Beer</button>
+            <button className="button" type="submit" onClick={handleOnClick}>Go Get That Beer</button>
                 {beersData.map(beer =>{
                 return(
                     <>
