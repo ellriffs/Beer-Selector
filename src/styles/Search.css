@@ -1,0 +1,79 @@
+.list-id{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: 1px solid white;
+    padding: 20px;
+    width: 30%;
+}
+.list-name{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: 1px solid white;
+    padding: 20px;
+    width: 30%;
+}
+.first-brewed{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: 1px solid white;
+    padding: 20px;
+    width: 30%;
+}
+
+.list-abv{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: 1px solid white;
+    padding: 20px;
+    width: 30%;
+ }
+
+ .goes-with{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    background-color: rgba(255, 0, 0, 0.692);
+    color: white;
+    border: 1px dotted white;
+    padding: 20px;
+    width: 30%;
+ }
+
+
+.image-div{
+    position: absolute;
+    bottom: 7rem;
+    right: 50%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+
+.beer-image{
+    height: 30rem;;
+}
+
+.button{
+    border-radius: 50%;
+    height: 7rem;
+    color: white;
+    border-left: none;
+    border-right: none;
+    background-color:rgba(255, 0, 0, 0.836); 
+}
+
+.button:hover{
+    opacity: 90%;
+}

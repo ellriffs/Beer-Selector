@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Rock+Salt&display=swap');
+
+.list-item{
+    text-decoration: none;
+    color: black;
+    font-family: 'Rock Salt';
+    color: rgb(255, 184, 0);
+
+}
+
+.nav-list{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 40%;
+    font-size: 2rem;
+    font-family: 'Rock Salt';
+    color: rgb(255, 184, 0);
+}

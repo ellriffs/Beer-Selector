@@ -1,4 +1,8 @@
 body {
+  background-image: url('./assets/duff-man.jpg');
+  background-size: cover;
+  background-position-y: -6.5rem;
+  background-repeat: no-repeat;
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',

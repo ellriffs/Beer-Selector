@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Rock+Salt&display=swap');
+
+.Beer-Title{
+    display: flex;
+    flex-direction: row;
+    font-family: 'Rock Salt';
+    color: rgb(255, 184, 0);
+    font-size: 2.5rem;
+    text-align: left;
+    margin: 3rem;
+
+}
+
+.Beer-desc{
+    display: flex;
+    flex-direction: row;
+    font-family: 'Rock Salt';
+    color: red;
+    font-size: 2rem;
+    width: 30%;
+    text-align: left;
+    margin: 3rem;
+
+}
