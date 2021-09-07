@@ -14,8 +14,8 @@ const Search = () =>  {
     console.log(beersData)
 
     const handleOnClick = () => {
-        window.location.reload()
-
+        axios.get(('https://api.punkapi.com/v2/beers/random')).then(res => setBeersData(res.data))
+        
     }
     return (
         <div className="search">
